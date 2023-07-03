@@ -11,7 +11,7 @@ import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const ProfilePage = () => {
   return (
-    <div className="mx-4 md:mx-60 text-white bg-[url('../resource/texture.png')] bg-cover bg-fixed bg-no-repeat">
+    <div className="mx-4 md:mx-60 text-white ">
       {/* Profile Section */}
       <div className="md:mb-32">
         <div className="flex justify-between items-center sticky top-10 bg-slate-950 bg-opacity-25 py-4 px-6 rounded-full backdrop-blur-3xl">
