@@ -17,22 +17,22 @@ const Header = () => {
                 <p className="flex flex-col gap-2 text-center text-white mb-2 hover:scale-110 duration-200 shadow-2xl shadow-slate-700 hover:translate-x-2" ><UserIcon className="h-8 md:h-10" />About</p>
             </button>
           </Link>
-          <Link href="/my-service">
+          <Link href="#service">
             <button className="">
                 <p className="flex flex-col gap-2 text-center text-white mb-2 hover:scale-110 duration-200 shadow-2xl shadow-slate-700 hover:translate-x-2" ><CogIcon className="h-8 md:h-10" />Service</p>
             </button>
           </Link>
-          <Link href="/my-skills">
+          <Link href="#skills">
             <button className="">
                 <p className="flex flex-col gap-2 text-center text-white mb-2 hover:scale-110 duration-200 shadow-2xl shadow-slate-700 hover:translate-x-2" ><CommandLineIcon className="h-8 md:h-10"/>Skills</p>
             </button>
           </Link>
-          <Link href="/my-projects">
+          <Link href="#projects">
             <button className="">
                 <p className="flex flex-col gap-2 text-center text-white mb-2 hover:scale-110 duration-200 shadow-2xl shadow-slate-700 hover:translate-x-2" ><RocketLaunchIcon className="h-8 md:h-10" />Projects</p>
             </button>
           </Link>
-          <Link href="/contact-me">
+          <Link href="#contact">
             <button className="">
                 <p className="flex flex-col gap-2 text-center text-white mb-2 hover:scale-110 duration-200 shadow-2xl shadow-slate-700 hover:translate-x-2" ><PaperAirplaneIcon className="h-8 md:h-10 -rotate-45" />Contact</p>
             </button>
